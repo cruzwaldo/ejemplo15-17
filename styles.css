@@ -1,0 +1,47 @@
+img{ 
+width: 300;
+
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20 px;
+}
+div{
+width: 480px;
+border: 3px solid black;
+
+}
+h2{
+text-align: center;
+
+}
+li{
+    list-style: none;
+}
+button{
+border: none;
+padding: 10px;
+background-color: black;
+color: yellow;
+display: auto;
+margin: 10px auto;
+}
+h1{
+    text-align: center;
+    color: brown;
+
+
+}
+
+body{
+    display: flex;
+    margin: 15px;
+}
+ul{
+    text-align: center;
+}
+
+
