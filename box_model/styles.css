@@ -4,13 +4,13 @@ body {margin: 100px}
 
 
 p{
-background-color: aqua;
+background-color: rgb(208, 255, 0);
 padding: 5px 10px 15px 20px;
 margin: 20px;
-border: 2cap solid red;
+border: 2cap solid rgb(27, 18, 56);
 
 }
-.tex1{ color: #07078e;
+.tex1{ color: #8e0707;
 margin: 10px;
 border: #07078e;
 

@@ -25,13 +25,13 @@ button{
 border: none;
 padding: 10px;
 background-color: black;
-color: yellow;
+color: rgb(180, 180, 72);
 display: auto;
 margin: 10px auto;
 }
 h1{
     text-align: center;
-    color: brown;
+    color: rgb(41, 36, 36);
 
 
 }
