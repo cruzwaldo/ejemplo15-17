@@ -26,6 +26,7 @@ body{
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    color: aliceblue;
 
 }
 
@@ -33,10 +34,12 @@ body{
     display: flex;
     gap: 40px;
     list-style: none;
+    
 
 }
 .menu__link {
     text-decoration: none;
+    color: aliceblue;
 }
 h1 {
 
@@ -47,7 +50,7 @@ h1 {
     color: rgb(226, 233, 220);
 }
 
-p {
+.text1 {
 background-color: rgb(100, 87, 87);
     padding: 40px;
     border: 3px solid rgb(0, 26, 0);
@@ -60,9 +63,18 @@ background-color: rgb(100, 87, 87);
 img{
     width: 100px;
     height: 100px;
-    align-items: end;
+    align-items: center; 
 }
-.text1{
-    color: rgb(121, 121, 145);
-    text-transform: capitalize;
+.text2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+.card{
+justify-content: center;
+align-items: center;
+display: flex;
+width: 200px;
+height: 200px;
+
 }
