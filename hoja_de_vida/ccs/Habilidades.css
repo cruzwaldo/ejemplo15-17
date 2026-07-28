@@ -10,12 +10,13 @@ font-size: 62.5%;
 }
 body{
     background-color: black;
+    
 }
 
 .header {
     background-color: rgb(57, 61, 60);
-    padding: 30px;
-    margin: 50px;
+    padding: 10px;
+    margin: 10px;
 
 }
 .menu{
@@ -55,20 +56,29 @@ h1{
     justify-content: center;
 }
 .card{
-    height: 500px;
+    height: 400px;
     width: 550px;
     display: flex;
-    padding: 50px;
     background-color: aqua;
-    margin: 60px;
+    margin: 30px;
     
    
 }
 h2{
     color: rgb(3, 13, 22);
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: flex;
-    margin: 40px;
-    gap: 40px;
+    margin: 1px;
+    gap: 1px;
+}
+.container{
+    display: flex;
+    margin: auto;
+    
+
+
+
+ 
+
 }
