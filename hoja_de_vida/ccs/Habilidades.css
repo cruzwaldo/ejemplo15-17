@@ -8,10 +8,14 @@ box-sizing: border-box;
 html {
 font-size: 62.5%;
 }
+body{
+    background-color: black;
+}
 
 .header {
-background-color: aquamarine;   
-padding: 30;
+    background-color: rgb(57, 61, 60);
+    padding: 30px;
+    margin: 50px;
 
 }
 .menu{
@@ -22,9 +26,24 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 20px;
 
 }
-.menu_list{
-display: flex;
-gap: 40px;
-list-style: none;
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+.menu_list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    
+
+}
+.menu__link {
+    text-decoration: none;
+    color: aliceblue;
 
 }
