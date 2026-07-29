@@ -1,0 +1,84 @@
+:root {
+    --bakcground: #050505;
+    --titles: #c5ae97;
+    --textos: #b7ffb7;
+    --secondary: #008f11;
+    --border: #003b00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    background: #070447;
+    background: #2A7B9B;
+background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+padding: 10px solid green;
+background: #F2DE29;
+background: linear-gradient(90deg,rgba(242, 222, 41, 1) 1%, rgba(87, 199, 133, 1) 52%, rgba(42, 123, 155, 1) 95%);
+
+
+}
+
+main {
+    flex: 1;
+}
+
+.menu {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: var(--titles);
+    font-size: 2rem;
+}
+
+.menu__logo {
+    width: 100px;
+}
+
+
+footer {
+    background-color: rgb(161, 161, 161);
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.redes {
+
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.redes1{
+
+    justify-content: space-between;
+    align-items: center;
+}
