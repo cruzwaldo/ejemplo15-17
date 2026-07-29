@@ -1,6 +1,6 @@
 :root {
     --bakcground: #050505;
-    --titles: #af7373;
+    --titles: #160101;
     --textos: #b7ffb7;
     --secondary: #008f11;
     --border: #003b00;
@@ -37,4 +37,10 @@ h1 {
 
 .foto {
     width: 400px;
+}
+.redes1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10px;
 }
