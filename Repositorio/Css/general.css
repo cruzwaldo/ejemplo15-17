@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header{
+    background: #424040;
+background: linear-gradient(90deg,rgba(66, 64, 64, 1) 0%, rgba(92, 92, 94, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    text-align: center;
+    }
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 87vh;
+    background-color: rgb(56, 58, 57);
+  
+}
+.menu {
+    padding: 10 px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    
+    
+    
+     }
+.menu_link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: "Noto Serif Display", serif;
+       
+
+}
+.menu_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+   text-decoration: none;
+    
+}
+
+span{
+    color: rgb(0, 0, 0);
+}
+
+body{
+
+
+}
+h1{
+    display: flex;
+    color: aqua;
+
+    }
+
+
+footer {
+    background: #424040;
+background: linear-gradient(90deg,rgba(66, 64, 64, 1) 0%, rgba(92, 92, 94, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+
+.redes {
+
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 112, 189);
+    
+}
+
+.redes1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+    }

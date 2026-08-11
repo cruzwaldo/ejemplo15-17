@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./../Css/general.css">
     <link rel="stylesheet" href="./../Css/styles.css">
 
 </head>
@@ -14,36 +20,42 @@
 
     <header>
 
-        <nav>
+        <nav class="menu">
 
-            <span>LOGO</span>
+            <span>Repositorio</span>
 
-            <u class="menu_list">
+            <ul class="menu_list">
                 <li>
-                    <a href="index.html" class="menu_link">quien soy</a>
+                    <a href="index.html" class="menu_link">Quien soy</a>
                 </li>
 
                 <li>
-                    <a href="habilidades.html" class="menu_link">habilidades</a>
+                    <a href="habilidades.html" class="menu_link">Habilidades</a>
                 </li>
 
                 <li>
-                    <a href="contacto.html" class="menu_link">contacto</a>
+                    <a href="contacto.html" class="menu_link">Contacto</a>
                 </li>
-            </u>
+            </ul>
         </nav>
 
     </header>
 
     <main>
-        <h1>QUIEN SOY YO</h1>
-        <section class="hero">
-            <img class="hero_img" src="./../imagenes/foto perfil.jpeg" alt="foto de portada">
-             <h1>DAMIAN CRUZWALDO</h1>
-             <P>Soy estudiante de Ingeniería de Software, con un fuerte compromiso con el aprendizaje continuo y el desarrollo profesional. Me caracterizo por mi capacidad de adaptación a nuevas tecnologías, el interés por adquirir y aplicar conocimientos, y un enfoque orientado a la mejora continua. Busco fortalecer mis competencias técnicas y contribuir al desarrollo de soluciones de software eficientes, aplicando buenas prácticas de ingeniería y trabajo colaborativo.</P>   
+        <h1> Quien soy</h1>
 
-        </section>    
-
+        <div class="card">
+            <img src="./../imagenes/perfil.jpeg" alt="Ejemplo de imagen">
+            <div class="card-content">
+                <h3>DAMIAN CRUZWALDO</h3>
+                <p class="presenta">Soy estudiante de Ingeniería de Software, con un fuerte compromiso con el aprendizaje continuo y el
+                    desarrollo profesional. Me caracterizo por mi capacidad de adaptación a nuevas tecnologías, el
+                    interés por adquirir y aplicar conocimientos, y un enfoque orientado a la mejora continua. Busco
+                    fortalecer mis competencias técnicas y contribuir al desarrollo de soluciones de software
+                    eficientes, aplicando buenas prácticas de ingeniería y trabajo colaborativo</p>
+                <a href="./habilidades.html" class="card-btn">Leer más</a>
+            </div>
+        </div>
 
 
     </main>
@@ -52,20 +64,20 @@
     <footer>
         <div class="redes1">
             <div>
-                <a target="_blank"href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F%3Flocale%3Des_LA">
-                <img class="redes" src="./../imagenes/facebook.svg" alt="">
+                <a target="_blank" href="https://www.facebook.com/?locale=es_LA">
+                    <img class="redes" src="./../imagenes/facebook.svg" alt="">
                 </a>
             </div>
 
             <div>
                 <a target="_blank" href="https://www.instagram.com/">
-                <img class="redes" src="./../imagenes/instagram-brands-solid-full.svg" alt="">
+                    <img class="redes" src="./../imagenes/instagram-brands-solid-full.svg" alt="">
                 </a>
             </div>
 
             <div>
                 <a target="_blank" href="https://x.com/iniciarsesion?lang=es">
-                <img class="redes" src="./../imagenes/x-twitter.svg" alt="">
+                    <img class="redes" src="./../imagenes/x-twitter.svg" alt="">
                 </a>
             </div>
         </div>
