@@ -4,10 +4,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg,
-            #061d2e,
-            #0b3d5c,
-            #07111a);
+
 }
 
 .contacto {
